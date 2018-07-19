@@ -1,0 +1,1375 @@
+{
+	"add" : "Agregar",
+	"reject" : "Rechazar",
+	"setAssignment" : "Fijar asignación",
+	"clear": "Limpiar",
+	"config": "Configuración",
+	"continue": "Continuar",
+	"edit": "Edición",
+	"editItems": "Consultar",
+	"messageTitle": "Plataforma DIS",
+	"successMessage": "Acción realizada con éxito",
+	"errorMessage": "La acción no pudo completarse, vuelve a intentarlo",
+	"listMessage": "El elemento seleccionado ya se encuentra agregado",
+	"listMessageIn": "El elemento ingresado ya se encuentra agregado",
+	"listNotDonor": "No existe donantes Asignados",
+	"listEventActive": "No se puede eleminar el presupuesto porque tiene Corridas asiganadas",
+	"selectElement": "Debe Seleccionar la opción para editar",
+	"selectGoal": "Debe Seleccionar la Meta",
+	"selectComplete": "Debes completar la configuración",
+	"notImplement": "Fase no Implementada",
+	"existsMessage": "Registro ya Existe",
+	"findRecs": "Consulta",
+	"delete": "Eliminar",
+	"info" : "Información general",
+	"modify": "Guardar modificaciones",
+	"newItem": "Crear",
+	"next": "Siguiente",
+	"register": "Registrar",
+	"save": "Guardar",
+	"sendEmail": "Enviar Correo",
+	"search": "Buscar",
+	"saveSelectAgain": "Guardar y seleccionar de nuevo",
+	"saveAndContinue": "Guardar y continuar",
+	"data": "Datos Generales",
+	"exit": "Salir",
+	"accept": "Aceptar",
+	"update": "Guardar Cambio",
+	"validated": "Validar",
+	"year": "Año",
+	"dateStart": "Fecha Inicial",
+	"dateEnd": "Fecha Final",
+	"apply": "Si estamos seguros de aplicar por esta oportunidad",
+	"cancel": "Cancelar",
+	"send": "Enviar",
+	"approve": "Aprobar Información",
+	"approveInfo": "Aprobar Registro",
+	"refuse": "Rechazar Solicitud",
+	"sendGrantee": "Revisar Donataria",
+	"sendLawyer": "Revisar Abogado",
+	"saveComments": "Guardar comentarios",
+	"sendComments": "Enviar comentarios",
+	"Catalog": {
+		"title": "Catálogos",
+		"Items": {
+			"title": "Rubros",
+			"item": "Rubro",
+			"newItem": "Nombre del rubro",
+			"stateItem": "Estatus",
+			"stateType": "Tipo"
+		}
+	},
+	"Login": {
+		"return": "Regresar al sitio",
+		"title": "Iniciar sesión",
+		"username": "Correo electrónico",
+		"password": "Contraseña",
+		"btnLogin": "Ingresar",
+		"btnForgotten": "Olvidé mi contraseña",
+		"title2": "¿Su organización no está registrada?",
+		"regInstitution": "Registrar a mi organización",
+		"regInstructionsTitle": "Mi organización está registrada, pero yo no",
+		"regPhone": "inversionsocial@montepiedad.com.mx"
+	},
+	"Configuration": {
+		"title": "Configuración",
+		"Documents": {
+			"DocsStatus": {
+				"title": "Estatus de documento",
+				"docsStatus": "Estatus Documento",
+				"stateItem": "Estatus",
+				"newDocsStatus": "Nombre del Estatus"
+			},
+			"DocsNames": {
+				"title": "Documentos",
+				"docsName": "Documento",
+				"stateItem": "Estatus",
+				"newDocsName": "Nombre del Documento",
+				"docsStatus": "Estatus"
+			}
+		},
+		"ProjectConfig": {
+			"title": "Configuración del proyecto",
+			"project": "Proyecto",
+			"newProject": "Nombre del proyecto",
+			"titleCatalog": "Catálogo",
+			"titleQuestion": "Pregunta",
+			"table": "Asignación de preguntas"
+		},
+		"Question": {
+			"edit":"Edición",
+			"title": "Preguntas",
+			"titleInputQuestion": "Pregunta",
+			"titleInputResponse": "Respuesta",
+			"titleInputRetro": "Retroalimentación",
+			"titleInputPunMax": "Puntuación máxima",
+			"newInputMax" : "Ingrese valor",
+			"invalidPunMax": "La puntuación Máxima debe ser mayor a 0",
+			"titleInputTipoPregunta": "Tipo de pregunta",
+			"titleInputTipoResponse": "Tipo de respuesta",
+			"nmp": "NMP",
+			"donataria": "Donataria",
+			"titleInputValor": "Valor",
+			"pHInputPregunta":"Ingrese el nombre de la pregunta",
+			"pHInputFindQuestion":"Buscar por pregunta",
+			"pHInputFindResponse":"Buscar por respuesta",
+			"pHInputResponse":"Ingrese la respuesta",
+			"pHInputRetro":"Ingrese retroalimentación",
+			"titleConfiguration":"Configuración de pregunta",
+			"titleConfigurationResp":"Configuración de respuesta",
+			"indicator": "Indicador",
+			"newIndicator": "Nombre del Indicador",
+			"type": "Tipo",
+			"stateItem": "Estatus",
+			"tableColNum":"No",
+			"tableColRes":"Respuesta",
+			"tableColRetro":"Retroalimentación",
+			"tableColValor":"Valor",
+			"tableColEstatus":"Estatus",
+			"tableColAcción":"Acción"
+		},
+		"Variable": {
+			"title": "Variable",
+			"titleVariable": "Configuración de variables",
+			"variable": "Variable",
+			"newVariable": "Nombre de la Variable",
+			"stateItem": "Estatus",
+			"titleRange": "Rangos",
+			"from": "Desde",
+			"to": "Hasta",
+			"points": "Puntos",
+			"newPoints": "Ingrese Número",
+			"level": "Nivel",
+			"newLevel": "Ingrese Nivel",
+			"titleQuestion": "Asignación de preguntas",
+			"questions": "Preguntas",
+			"score": "Puntuación Máxima"
+		},
+		"Evaluation": {
+			"title": "Tipo de evaluación",
+			"evaluation": "Evaluación",
+			"newEvaluation": "Ingrese Evaluación",
+			"stateItem": "Estatus",
+			"requiresVisit": "Requiere Visita",
+			"dependsEvaluation": "Depende de otra Evaluación",
+			"depends": "Depende de",
+			"minimumRequired": "Resultado Mínimo requerido",
+			"newMinimumRequired": "",
+			"maximumRequired": "Resultado anteriores",
+			"newMaximumRequired": "",
+			"titleNewEvaluation": "Configuración de tipo de evaluación",
+			"titleRange": "Rangos",
+			"from": "Desde",
+			"to": "Hasta",
+			"points": "Puntos",
+			"newPoints": "Ingrese Número",
+			"level": "Nivel",
+			"newLevel": "Ingrese Nivel",
+			"month": "Meses",
+			"newMonth": "Meses",
+			"titleVariable": "Asignación de Variables",
+			"variables": "Variables",
+			"weighing": "Ponderación",
+			"newWeighing": "Ingrese Ponderación",
+			"score": "Total Ponderación Máxima Variable"
+		},
+		"Questions": {
+			"question": "Pregunta",
+			"newQuestion": "Descripción de la Pregunta",
+			"OpenQuestions": {
+				"title": "Preguntas abiertas"
+			},
+			"ClosedQuestions": {
+				"title": "Preguntas cerradas"
+			},
+			"SpecialQuestions": {
+				"title": "Preguntas especiales"
+			},
+			"CommentsQuestions": {
+				"title": "Preguntas cerradas con comentarios"
+			}
+		},
+		"Ranges": {
+			"title": "Rangos",
+			"newRange": "Nombre del Rango",
+			"newCategory": "Nombre de la Categoría",
+			"range": "Rango",
+			"category": "Categoría",
+			"table": "Asignación de Categoría",
+			"stateItem": "Estatus"
+		},
+		"TypeTable": {
+			"title": "Tipo de tablas",
+			"newTable": "Nombre de Tabla",
+			"table": "Tabla",
+			"stateItem": "Estatus"
+		},
+		"Scales": {
+			"title": "Escalas",
+			"newScale": "Nombre de la Escala",
+			"newCategory": "Nombre de la Categoría",
+			"scale": "Escala",
+			"category": "Categoría",
+			"table": "Asignación de Categoría",
+			"stateItem": "Estatus"
+		},
+		"Indicators": {
+			"title": "Indicadores",
+			"indicator": "Indicador",
+			"newIndicator": "Nombre del Indicador",
+			"type": "Tipo",
+			"stateItem": "Estatus"
+		},
+		"Goals": {
+			"title": "Metas",
+			"goal": "Meta",
+			"newGoal": "Nombre de la Meta",
+			"table": "Asignación de indicadores",
+			"metaObjetivo": "Objetivos",
+			"metasObjetivo": "Metas",
+			"metasEstatus": "Estatus"
+		},
+		"ObjectivesConfig": {
+			"title": "Objetivos de desarrollo",
+			"objective": "Objetivo",
+			"metas": "Metas",
+			"newObjective": "Nombre del objetivo",
+			"stateItem": "Estatus",
+			"table": "Asignación de Metas"
+		},
+		"StateStreng": {
+			"title": "Estatus fortalecimiento",
+			"stateItem": "Estatus de Fortalecimiento",
+			"newStateItem": "Nombre del Estatus"
+		},
+		"StrengConfig": {
+			"title": "Etapa del fortalecimiento",
+			"stage": "Etapa",
+			"newStage": "Nombre de la Etapa",
+			"stateItem": "Estatus"
+		},
+		"SpecialQuestions": {
+			"title": "",
+			"success": "Cambios realizados con éxito",
+			"SpecialQuestion1": {
+				"title": "Pregunta Especial 1"
+			},
+			"SpecialQuestion2": {
+				"title": "Pregunta Especial 2"
+			},
+			"SpecialQuestion3": {
+				"title": "Pregunta Especial 3",
+				"label3": "Rango Edad",
+				"label4": "Total",
+				"label6": "Rango Socioeconomico",
+				"label12": "Total"
+			},
+			"SpecialQuestion4": {
+				"title": "Pregunta Especial 4"
+			},
+			"SpecialQuestion5": {
+				"title": "Pregunta Especial 5"
+			},
+			"SpecialQuestion6": {
+				"title": "Pregunta Especial 6"
+			},
+			"SpecialQuestion7": {
+				"title": "Pregunta Especial 7"
+			},
+			"SpecialQuestion8": {
+				"title": "Pregunta Especial 8"
+			},
+			"SpecialQuestion9": {
+				"title": "Pregunta Especial 9"
+			}
+		},
+		"Grantee": {
+			"title": "Donatarias",
+			"granteeItem": "Donataria",
+			"newGrantee": "Nombre de la Donataria",
+			"executive": "Ejecutivo",
+			"supervisor": "Supervisor",
+			"stateItem": "Estatus"
+		},
+		"Groups": {
+			"title": "Grupos",
+			"subtitle1": "Información General",
+			"subtitle2": "Asignación",
+			"donor": "Asignación de Donantes",
+			"grantee": "Asignación de Donantarias",
+			"subtitle3": "Configuración de etapas",
+			"label1": "Nombre Grupo",
+			"placeholder1": "Ingrese el nombre del grupo",
+			"label2": "Estatus",
+			"placeholderSearch": "Buscar por grupo",
+			"group": "Grupos",
+			"actions": "Acciones",
+			"stageRegister": "Fase de Registro",
+			"pay": "Pago",
+			"stageInformation": "Fase de Información",
+			"stageRequest": "Fase de Solicitud",
+			"stageEvaluation": "Fase de Evaluación",
+			"project": "Proyectos",
+			"goals": "Meta",
+			"indicators": "Indicadores"
+ 		},
+		"EligibilityCriteria": {
+			"title": "Criterios de elegibilidad",
+			"automaticCriteria": "Automáticos",
+			"evaluationScore": "Calificación",
+			"completeEvaluation": "Completas",
+			"variable": "Variable",
+			"variables": "Variables",
+			"manualCriteria": "Manuales",
+			"criterion": "Criterio",
+			"accomplishment": "Cumplimiento",
+			"rule": "Regla",
+			"description": "Descripción",
+			"status": "Estatus",
+			"evaluation": "Evaluación"
+ 		},
+		"Event": {
+			"title": "Configuración de corrida",
+			"fiscalYear": "Año Fiscal",
+			"table": "Asignación de donantes",
+			"tableAdd": "Donantes Asignados",
+			"donor": "Donante",
+			"balanceInit": "Presupuesto Inicial",
+			"balance": "Saldo",
+			"newBalance": "Ingrese Cantidad",
+			"admNMP": "Administración NMP",
+			"totalBalanceInit": "Total de Presupuesto Inicial",
+			"totalBalance": "Total de Saldo",
+			"totalEvents": "Total Asignado a corridas",
+			"event": "Corrida",
+			"keyEvent": "Clave Corrida",
+			"newKeyEvent": "Ingrese Clave",
+			"nameEvent": "Nombre Corrida",
+			"newNameEvent": "Ingrese Nombre",
+			"dateInit": "Fecha Inicio",
+			"dateEnd": "Fecha Fin",
+			"stateItem": "Estatus",
+			"typeEvent": "Corrida Normal",
+			"percentIncrease": "Porcentaje de Incremento",
+			"newPercentIncrease": "Ingrese Cantidad",
+			"group": "Asignación de Grupo",
+			"function": "Tipo de Función",
+			"selectBalance": "Selección de Presupuesto",
+			"selectDonor": "Donantes Asociandos por Grupo",
+			"amount": "Importe",
+			"eligibilityCriteria": "Criterios de Elegibilidad",
+			"configEvent": "Corridas Asignadas"
+		},
+		"Subtheme": {
+			"title": "Subtema 1",
+			"subtheme": "Subtema 1",
+			"status": "Estatus",
+			"subtema2": "Subtema 2",
+			"newSubtheme": "Ingrese nombre del subtema 1"
+		},
+		"Subtheme2": {
+			"title": "Subtema 2",
+			"subtheme": "Subtema 2",
+			"nameTheme": "Subtema 2",
+			"stateItem": "Estatus",
+			"newSubtheme": "Ingrese nombre del subtema 2",
+			"searchSubtheme": "Buscar por subtema 2"
+		},
+		"Topic": {
+			"title": "Tema",
+			"topic": "Tema",
+			"subtema1": "Subtema 1",
+			"catalog": "Catalogo",
+			"stateItem": "Estatus",
+			"newTopic": "Ingrese nombre del tema",
+			"searchTopic": "Buscar por tema"
+		},
+		"Profile": {
+			"title": "Perfil",
+			"profile": "Perfil",
+			"newProfile": "Ingrese nombre del perfil",
+			"stateItem": "Estatus",
+			"function": "Asignación de Funcionalidad",
+			"addProfile": "Asignación de Perfil",
+			"category": "Funcionalidad",
+			"searchProfile": "Buscar por perfil",
+			"assignment": {
+				"title": "Asignación de perfil",
+				"assignment": "Nombre",
+				"user": "Usuario",
+				"newUser": "Ingrese Usuario",
+				"newAssignment": "Ingrese nombre de la persona",
+				"searchAssignment": "Buscar por asignación"
+			}
+		},
+		"Role": {
+			"title": "Función patrono",
+			"role": "Función",
+			"newRole": "Ingrese nombre de la funcion",
+			"searchRole": "Buscar por funcion",
+			"stateItem": "Estatus"
+		},
+		"LegalEntity": {
+			"title": "Figura jurídica",
+			"acronym": "Siglas",
+			"newEntity": "Ingrese nombre de la figura jurídica",
+			"searchEntity": "Buscar por figura jurídica",
+			"newAcronym": "Ingrese siglas",
+			"searchAcronym": "Buscar por siglas"
+		},
+		"InterventionLevel": {
+			"title": "Nivel de intervención",
+			"newIntervention": "Ingrese nombre de la intervención",
+			"statusIntervention": "Estatus",
+			"searchIntervention": "Buscar nivel de intervención",
+			"stateItem": "Estatus"
+		},
+		"ExerciseInfo": {
+			"title": "Información del ejercicio"
+		},
+		"Approach": {
+			"title": "Enfoque",
+			"stateItem": "Estatus",
+			"newApproach": "Ingrese nombre del Enfoque",
+			"searchApproach": "Buscar enfoque"
+		},
+		"Services": {
+			"title": "Servicios",
+			"service": "Servicio",
+			"newServices": "Ingrese nombre del servicio",
+			"searchServices": "Buscar servicio"
+		},
+		"otherActor": {
+			"title": "Otros Actores",
+			"service": "Servicio",
+			"newServices": "Ingrese nombre del servicio",
+			"searchServices": "Buscar servicio",
+			"id": "id",
+			"razonSocial": "Razón Social",
+			"siglas": "Siglas",
+			"state": "Estado",
+			"telefono": "Teléfono",
+			"correo": "Correo",
+			"paginaweb": "Página web",
+			"descripcion": "Descripcion",
+			"archivo": "Archivo",
+			"Address":{
+				"title": "Domicilio",
+				"Street": "Calles",
+				"Number": "Numeros",
+				"codigoPostal": "Codigo Postal",
+				"colony": "Colonia",
+				"BetweenStreets": "Entre calles",
+				"references": "Referencias"
+			},
+			"AddressBottom":{
+				"areasEspecialidad": "Áreas de especialidad",
+				"experiencia": "Experiencia",
+				"comentarios": "Comentarios"
+			}
+		},
+		"RegulatoryBody": {
+			"title": "Organismo regulador",
+			"stateItem": "Estatus",
+			"SearchRegulatory": {
+				"Name": "Nombre del organismo",
+				"Employment": "Puesto"
+			},
+			"PersonalData": {
+				"title": "Datos del Organismo Regulador",
+				"Name": "Nombre del organismo",
+				"newName": "Ingrese el nombre",
+				"Acronym": "Siglas",
+				"Phone": "Teléfono",
+				"Extension": "Extension",
+				"Email": "e-Mail",
+				"WebSite": "Página Web"
+			},
+			"Address": {
+				"title": "Domicilio fiscal",
+				"titleCorrespondencia": "Domicilio de correspondencia",
+				"Government": "Estado",
+				"City": "Ciudad",
+				"Delegation": "Delegación o municipio",
+				"Colony": "Colonia",
+				"Street": "Calle",
+				"NumberExt": "Número exterior",
+				"NumberInt": "Número interior",
+				"CP": "CP",
+				"BetweenStreet1": "Entre Calle 1",
+				"BetweenStreet2": "y calle 2",
+				"Reference": "Referencia",
+				"NotHome": "El domicilio de correspondencia no es el mismo"
+			},
+			"Commentaries": "Comentarios",
+			"Commentary": "Comentario",
+			"Documents": "Documentos",
+			"Contacts": {
+				"title": "Contactos",
+				"Name": "Nombre",
+				"LastName": "Apellido Paterno",
+				"MaternalSurname": "Apellido Materno",
+				"Employment": "Puesto",
+				"Phone": "Teléfono",
+				"Extension": "Extension",
+				"Email": "e-Mail"
+			}
+		},
+		"Consultant": {
+			"title": "Consultor",
+			"stateItem": "Estatus",
+			"Search": {
+				"Name": "Razón social",
+				"Acronym": "Siglas",
+				"Employment": "Puesto"
+			},
+			"PersonalData": {
+				"title": "Datos del consultor",
+				"Name": "Razón social",
+				"newName": "Ingrese la razón social",
+				"Acronym": "Siglas",
+				"Phone": "Teléfono",
+				"Extension": "Extension",
+				"Email": "e-Mail",
+				"WebSite": "Página Web"
+			},
+			"Address": {
+				"title": "Domicilio fiscal",
+				"titleCorrespondencia": "Domicilio de correspondencia",
+				"Government": "Estado",
+				"City": "Ciudad",
+				"Delegation": "Delegación o municipio",
+				"Colony": "Colonia",
+				"Street": "Calle",
+				"NumberExt": "Número exterior",
+				"NumberInt": "Número interior",
+				"CP": "CP",
+				"BetweenStreet1": "Entre Calle 1",
+				"BetweenStreet2": "y calle 2",
+				"Reference": "Referencia",
+				"NotHome": "El domicilio de correspondencia no es el mismo"
+			},
+			"Commentaries": "Comentarios",
+			"Commentary": "Comentario",
+			"Areas": "Áreas de especialidad",
+			"Experience": "Experiencia",
+			"Documents": "Documentos",
+			"Contacts": {
+				"title": "Contactos",
+				"Name": "Nombre",
+				"LastName": "Apellido Paterno",
+				"MaternalSurname": "Apellido Materno",
+				"Employment": "Puesto",
+				"Phone": "Teléfono",
+				"Extension": "Extension",
+				"Email": "e-Mail"
+			}
+		},
+		"ChangeOfDestination": {
+			"title": "Cambio de destino",
+			"responsibleRequest": "Responsable de la solicitud",
+			"dateSend": "Fecha de envio",
+			"authorization": "Autorización",
+			"dateAuthorization": "Fecha de autorización",
+			"amount": "Monto cambio destino",
+			"justification": "Justificación de la petición",
+			"resourceAdjustment": "Ajuste de recurso",
+			"comments": "Comentarios",
+			"concept": "Concepto",
+			"reject": "Motivo del rechazo"
+		},
+		"Donors": {
+			"title": "Donantes",
+			"stateItem": "Estatus",
+			"name": "Nombre",
+			"lastname": "Apellido paterno",
+			"mothersurname": "Apellido materno",
+			"phone": "Teléfono",
+			"extension": "Extension",
+			"email": "e-Mail",
+			"webSite": "Sitio Web",
+			"Donator": {
+				"title": "Datos del Donante",
+				"name": "Nombre del Donante",
+				"legalPersonality": "Personalidad jurídica",
+				"rfc": "RFC",
+				"cluni": "CLUNI",
+				"constitutionDate": "Fecha de constitución",
+				"startDateOperation": "Fecha inicio de operación",
+				"jap": "JAP u organismo regulador"
+			},
+			"Offices": {
+				"title": "Domicilio fiscal",
+				"Government": "Estado",
+				"City": "Ciudad",
+				"Delegation": "Municipio o Delegacion",
+				"Colony": "Colonia",
+				"Street": "Calle",
+				"NumberExt": "Número exterior",
+				"NumberInt": "Número interior",
+				"CP": "CP",
+				"BetweenStreet1": "Entre Calle 1",
+				"BetweenStreet2": "Entre Calle 2",
+				"Reference": "Referencia",
+				"NotHome": "El domicilio de correspondencia no es el mismo"
+			},
+			"ActivitiesObjetives": {
+				"title": "Actividades y Objetivos",
+				"socialActivity": "Actividad social",
+				"socialGoal": "Objetivo social"
+			},
+			"Notary": {
+				"documentNumber": "Número de escritura",
+				"documentDate": "Fecha de escritura",
+				"notaryNumber": "Número de notaría",
+				"Government": "Estado",
+				"rppFolio": "Folio del RPP",
+				"dateFolio": "Fecha de folio"
+			},
+			"ConstitutiveActDonor": {
+				"title": "Acta constitutiva del donante"
+			},
+			"LegalRepresentatives": {
+				"title": "Representantes Legales",
+				"startDateValidity": "Periodo de vigencia inicial",
+				"endDateValidity": "Periodo de vigencia final"
+			},
+			"Documents": "Documentos",
+			"EmployersAdvisers": {
+				"title": "Patronos ó Consejeros",
+				"function": "Función"
+			},
+			"Contacts": {
+				"title": "Contactos",
+				"employment": "Puesto"
+			},
+			"SearchDonors": {
+				"name": "Nombre de donante"
+			}
+		},
+		"Functions": {
+			"title": "Funciones",
+			"montoMaximo": "Monto máximo",
+			"montoMinimo": "Monto mínimo",
+			"evaluacion": "Evaluación",
+			"AverageOfExpenses": {
+				"title": "Promedio de egresos",
+				"descripcion": "Descripción",
+				"monto": "Monto",
+				"state": "Estatus",
+				"subTitle": "Variables",
+				"anios": "Años",
+				"m": "Variable m",
+				"a": "Variable a",
+				"b": "Variable b"
+			},
+			"AverageExpAndSeveralEval": {
+				"title": "Promedio de egresos y Diversas evaluaciones",
+				"titlePlusSeveralEval": "Promedio de egresos + Diversas evaluaciones",
+				"descripcion": "Descripción",
+				"monto": "Monto",
+				"state": "Estatus",
+				"subTitle": "Variables",
+				"ponderacionEgresos": "Ponderación de egresos",
+				"anosEsgresos": "Años egresos",
+				"anios": "Años",
+				"m": "Variable m",
+				"a": "Variable a",
+				"b": "Variable b",
+				"typeEvaluation": "Tipo de evaluación",
+				"asignacionRango": "Asignación de Rango",
+				"evaluacion": "Evaluación",
+				"ponderacion" : "Ponderación",
+				"de": "De",
+				"hasta": "Hasta",
+				"porc": "%",
+				"ajustable": "% Ajustable"
+			},
+			"DecOrIncDonationAssigned":{
+				"title" : "Disminución o incremento",
+				"titleLarge" : "% de disminución o incremento sobre último donativo asignado",
+				"descripcion": "Descripción",
+				"monto": "Monto",
+				"state": "Estatus",
+				"subTitle": "Variables",
+				"ponderacionEgresos": "Ponderación de egresos",
+				"anosEsgresos": "Años egresos",
+				"typeEvaluation": "Tipo de evaluación",
+				"asignacionRango": "Asignación de Rango",
+				"evaluacion": "Evaluación",
+				"ponderacion" : "Ponderación",
+				"de": "De",
+				"hasta": "Hasta",
+				"porc": "%",
+				"ajustable": "% Ajustable"
+			},
+			"VariationEvaluationClosed":{
+				"title" : "Variación en las evaluaciones (Grupo Cerrado)",
+				"titleLarge" : "Variación en las evaluaciones - Grupo Cerrado",
+				"typeEvaluation": "Tipo de evaluación",
+				"egresoAnoAnterior": "Egreso del Año Anterior",
+				"descripcion": "Descripción",
+				"monto": "Monto",
+				"state": "Estatus",
+				"subTitle": "Variables",
+				"anios": "Años",
+				"maximoAportacionIngreso": "% Máximo de Aportación por Ingreso",
+				"de": "De",
+				"del": "Del",
+				"al": "al",
+				"evaluacion": "Evaluación",
+				"ponderacion" : "Ponderación",
+				"ajustable": "ajustable",
+				"porcentajeAjuste": "% Ajustable",
+				"nivel": "NIVEL"
+			},
+			"VariationEvaluationOpened":{
+				"title" : "Variación en las evaluaciones (Grupo Abierto)",
+				"titleLarge" : "Variación en las evaluaciones - Grupo Abierto",
+				"typeEvaluation": "Tipo de evaluación",
+				"descripcion": "Descripción",
+				"monto": "Monto",
+				"state": "Estatus",
+				"maximoAportacionIngreso": "% Máximo de Aportación por Ingreso",
+				"anos": "Años",
+				"subTitle": "Variables",
+				"egresoCompararAnos": "Egreso a comparar-Años",
+				"exponente": "Exponente",
+				"del": "Del",
+				"al": "al",
+				"evaluacion": "Evaluación",
+				"ponderacion" : "Ponderación",
+				"ajustable": "% Ajustable",
+				"nivel": "NIVEL"
+			}
+		},
+		"Notifications": {
+			"tipoDeNotificacion": "Tipo de notificación",
+			"tipoDeEnvio": "Tipo de envío: ",
+			"plantilla": "Plantilla",
+			"adjuntarArchivos": "Adjuntar archivo",
+			"envioIndividual": "Envío Individual",
+			"envioMasivo": "Envío Masivo",
+			"donataria": "Donataria",
+			"donatarias": "Donatarias",
+			"donante": "Donante",
+			"organismoRegulador": "Organismo regulador",
+			"consultor": "Consultor",
+			"otros": "Otros actores",
+			"asunto": "Asunto",
+			"cuerpoDeTexto": "Cuerpo de texto",
+			"cuerpoCorreo": "Cuerpo del correo",
+			"incluirImagen": "Incluir imagen en el texto",
+			"declaracion": "Declaración",
+			"corrida": "Corrida",
+			"grupo": "Grupo",
+			"universo": "Todo el universo",
+			"figJuridica": "Figura Jurídica",
+			"estatusDonataria": "Estatus Donataria",
+			"catResultados": "Catálogo de Resultados",
+			"estatusAplicacionDonativo": "Estatus de Aplicación del Donativo",
+			"estatusPago": "Estatus de Pago",
+			"programaAsociado": "Programa Asociado"
+		},
+		"Template": {
+			"letters": {
+				"title": "Plantilla de cartas",
+				"logo1": "Logotipo 1",
+				"logo2": "Logotipo 2",
+				"description": "Texto",
+				"to": "Para",
+				"body": "Cuerpo de la carta",
+				"signature1": "Firma 1",
+				"signature2": "Firma 2",
+				"signatureFullName": "Nombre y Apellidos",
+				"position": "Cargo",
+				"ccp": "c.c.p",
+				"footer": "Pie de página",
+				"stateItem": "Estatus",
+				"templName": "Nombre Plantilla",
+				"templDate": "Fecha de Plantilla"
+			}
+		},
+		"Contracts": {
+			"title": "Configuración de Contrato",
+			"newContract": "Ingrese nombre del contrato",
+			"stateItem": "Estatus",
+			"Type": {
+				"title": "Tipo de Contrato"
+			}
+		},
+		"Payments": {
+			"Requirements": {
+				"title": "Requisito de Pago",
+				"new": "Requisito",
+				"detail": "Detalle",
+				"type": "Tipo",
+				"stateItem": "Estatus"
+			}
+		}
+	},
+	"Principal": {
+		"Dashboard": {
+			"title": "Dashboard",
+			"newRun": "Nueva corrida",
+			"ChangeOfDestiny": "Cambio de destino",
+			"records": "Registro",
+			"pendingUpdates": "Información",
+			"tasks": "Tareas",
+			"operation": "Operación",
+			"evaluation": "Evaluación",
+			"activeRaces": "Corridas activas",
+			"registeredDonations": "Donatarias registradas",
+			"configuracion": "Módulo de Configuración",
+			"portfolio": "Cartera",
+			"notification": "Notificaciones",
+			"query" : "Consulta",
+			"assignment": "Asignación",
+			"filterByEvaluation":"Filtro por evaluación",
+			"reports":"Reportes",
+			"process": ["Registro", "Información", "Evaluación", "Cartera | Consulta", "Información faltante", "Pagos parciales", "Cartera contabilizadas"],
+			"evaluationFilter": "Filtro por evaluación",
+			"condicionesEntrega": "Condiciones de entrega de donativos",
+			"missingInformation":"Información Faltante"
+		}
+	},
+	"Asignacion":{
+		"donationPre": "Donativo Pre",
+		"assignmentFilter": "Filtro de Asignación",
+		"proposalAssignment": "Propuesta de Asignación",
+		"Filter": {
+			"event": "Corrida",
+			"criteria": "Criterios",
+			"JustificationRequest": "Justificación de la solicitud",
+			"comments": "Comentarios",
+			"causeNegation": "Causas de la negación",
+			"resultAssingment": "Resultados de asignación",
+			"causeJustify": "Causas de no justificación"
+		}
+	},
+	"ProposalAssignment": {
+		"title": "Propuesta de asignación",
+		"editDonataria":"Editar donataria",
+		"presupuestoDisponible": "Presupuesto disponible",
+		"solicitadoProgramaAsociado": "Solicitado programa asociado",
+		"montoProgramaAsociado": "Monto programa Asociado",
+		"montoPropuestoEdit": "Monto propuesto",
+		"causasNegacion": "Causas de negación",
+		"resultadosAsignacion": "Resultados de asignación",
+		"comentarios": "Comentarios",
+		"proposal":{
+			"comentarios": "Comentarios",
+			"totalAsignado": "Total Asignado",
+			"saldoPresupuesto": "Saldo Presupuesto",
+			"autoriza": "Órgano que autoriza",
+			"dateAutorization": "Fecha en que autorizó",
+			"corrida":"Corrida",
+			"TipoFuncion": "Tipo función",
+			"funcion": "Función",
+			"evaluaciónes" : "Evaluaciónes",
+			"redondeo": "Redondeo",
+			"corridaAsociada":"Corrida asociada",
+			"presupuestoCorrida": "Presupuesto corrida",
+			"montoPropuesto": "Monto Propuesto",
+			"montoNMP": "Monto NMP",
+			"montoDUM": "Monto DUM",
+			"montoProgramaAsociado": "Monto programa asociado"
+		},
+		"budgetAvailable": "Presupuesto disponible",
+		"totalAssigment": "Total asignado",
+		"budget": "Saldo Presupuesto",
+		"export":"Exportar",
+		"autorization":"Autorización",
+		"accion":"Accion",
+		"certificate": "Certificado"
+	},
+	"PreRegister": {
+		"title": "Registro de donatarias",
+		"registerSuccessAction": "Ingresar al sistema",
+		"resendMail": "Aún no he recibido e-Mail para activar mi cuenta",
+		"sendRecoveryAccountTitle": "No he recibido el correo de Activación",
+		"sendRecoveryAccount": "Antes de continuar por favor verifique en su bandeja de correo no deseado y asegúrese que el correo sea correcto",
+		"InstitutionData": {
+			"title": "Datos de la organización",
+			"RFC": "RFC",
+			"newRFC": "Ingrese RFC",
+			"legalConcept": "Figura jurídica",
+			"granteeName": "Nombre de la donataria con la denominación completa",
+			"newGranteeName": "Ingrese Nombre de la Donataria"
+		},
+		"UserData": {
+			"title": "Datos del usuario",
+			"name": "Nombre",
+			"newName": "Ingrese Nombre",
+			"paternalSurname": "Apellido paterno",
+			"newPaternalSurname": "Ingrese Apellido paterno",
+			"maternalSurname": "Apellido materno",
+			"newMaternalSurname": "Ingrese Apellido materno",
+			"email": "e-Mail",
+			"newEmail": "Ingrese e-Mail",
+			"password": "Contraseña",
+			"newPassword": "Ingrese contraseña",
+			"confirmPwd": "Confirmar contraseña",
+			"newConfirmPwd": "Ingrese contraseña"
+		}
+	},
+	"Register": {
+		"GeneralInfo": {
+			"title": "Datos generales",
+			"granteeName": "Nombre de la donataria",
+			"cluni": "CLUNI",
+			"rfc": "RFC",
+			"legalFigure": "Figura jurídica",
+			"constitutionDate": "Fecha de constitución",
+			"operationsDate": "Fecha de inicio de operación",
+			"turnedIntoIAP": "¿Se transformó en IAP?",
+			"jap": "JAP u organismo regulador",
+			"socialIntervention": "Descripción de la intervención social",
+			"twitter": "Twitter",
+			"facebook": "Facebook",
+			"checkInfo": "Acepto recibir información de NMP"
+		},
+		"ContactData": {
+			"title": "Domicilio fiscal",
+			"street": "Calle",
+			"numberExt": "Número exterior",
+			"numberInt": "Número interior",
+			"cp": "C.P.",
+			"street1": "Entre calle 1",
+			"street2": "y calle 2",
+			"reference": "Referencia",
+			"colony": "Colonia",
+			"town": "Delegación o municipio",
+			"city": "Ciudad",
+			"state": "Estado",
+			"mail": "El domicilio para correspondencia no es el mismo",
+			"phone": "Teléfono",
+			"webpage": "Página web",
+			"mail1": "e-Mail 1",
+			"mail2": "e-Mail 2",
+			"mailAddressTitle": "Domicilio para correspondencia"
+		},
+		"PatronsCouncelors": {
+			"title": "Patronos/Consejeros",
+			"name": "Nombre",
+			"paternalSurname": "Apellido paterno",
+			"maternalSurname": "Apellido materno",
+			"function": "Función",
+			"email": "e-Mail personal"
+		},
+		"CompanyCharter": {
+			"title": "Acta constitutiva",
+			"deedNumber": "Número de escritura",
+			"deedDate": "Fecha de escritura",
+			"notaryName": "Nombre notario",
+			"notaryPaternalSurname": "Apellido paterno notario",
+			"notaryMaternalSurname": "Apellido materno notario",
+			"notarysOfficeNumber": "Número de notaría",
+			"State": "Estado",
+			"RPPFolio": "Folio de RPP",
+			"folioDate": "Fecha de folio"
+		},
+		"LegalRepresentation": {
+			"title": "Representante legal",
+			"name": "Nombre",
+			"paternalSurname": "Apellido paterno",
+			"maternalSurname": "Apellido materno",
+			"powerType": "Tipo de poder",
+			"periodSince": "Vigente desde",
+			"periodUntil": "Hasta"
+
+		},
+		"Documents": {
+			"title": "Documentos",
+			"stateItem": "Estatus"
+
+		},
+		"Summary": {
+			"title": "Enviar"
+		},
+		"Notifications": {
+			"title": "Notificaciones"
+		}
+	},
+	"Information": {
+		"Antecedentes": {
+			"titleButton": "Información general",
+			"displayAll": "Desplegar todo",
+			"antecedent": "Antecedentes",
+			"mision": "Misión",
+			"vision": "Visión",
+			"characteristics": "Características de la población atendida",
+			"requirements": "Requisitos para otorgar el servicio",
+			"socialProblem": "Problema social que atiende",
+			"installedCapacity": "Capacidad instalada",
+			"theoryChange": "Teoría de cambio",
+			"allFields": ""
+		},
+		"Objetivos": {
+			"title": "Objetivos",
+			"selectorObjective": "Objetivo",
+			"selectorGoal": "Meta",
+			"formLabel": "Objetivos de desarrollo sostenible a los que contribuye"
+		},
+		"Classification": {
+			"title": "Clasificación",
+			"theme": "Tema",
+			"theme1": "Subtema1",
+			"theme2": "Subtema2",
+			"service": "Servicio",
+			"approach": "Enfoque"
+		},
+		"Contactos": {
+			"title": "Contactos",
+			"fullName": "Nombre completo",
+			"name": "Nombre",
+			"paternalSurname": "Apellido paterno",
+			"maternalSurname": "Apellido materno",
+			"jobDescription": "Puesto",
+			"phone": "Teléfono",
+			"Email": "e-Mail personal"
+		},
+		"Documentos":{
+			"title": "Documentos",
+			"titleComponent": "Documentos de la donataria",
+			"registerAsociated": "Asociados el registro",
+			"anotherInfoAsociated": "Asociados a otra información",
+			"history": "Ver historial"
+		},
+		"Fiscal": {
+			"title": "Actividad anual",
+			"titleSelect": "Seleccione actividad anual",
+			"toContinue": "Para continuar debe indicar de que año fiscal desea cargar información de ubicaciones, población e información financiera"
+		},
+		"Actividad": {
+			"title": "Actividad anual",
+			"locations": "Ubicaciones",
+			"population": "Población",
+			"financial": "Información financiera"
+		},
+		"Ubicaciones": {
+			"title": "Ubicaciones",
+			"street": "Calle",
+			"number": "Número exterior",
+			"interiorNumber": "Número interior",
+			"cp": "Código Postal",
+			"street1": "Entre calle 1",
+			"street2": "y calle 2",
+			"reference": "Referencia",
+			"colony": "Colonia",
+			"town": "Delegación o municipio",
+			"city": "Ciudad",
+			"state": "Estado",
+			"selectObjective": "Actividad que desarrolla",
+			"typePopulation": "Número de personas atendidas"
+		},
+		"Poblacion": {
+			"title": "Población",
+			"panelAgeTitle": "Población por edad y sexo",
+			"panelEconomicTitle": "Población por nivel socioeconómico",
+			"panelLocationTitle": "Organizaciones apoyadas",
+			"age": "Edad y sexo",
+			"range": "Rango de edad",
+			"women": "Número de mujeres",
+			"men": "Número de hombres",
+			"socioeconomic": "Nivel Socioeconómico",
+			"economicRange": "Rango socioeconómico",
+			"peopleNumber": "Número de personas",
+			"organizations": "Número de organizaciones apoyadas",
+			"type": "Tipo de Donataria",
+			"etniesAttention": "En nuestra organización atendemos población indígena",
+			"specifyEtnies": "Especifique la(s) etnia(s) separadas por comas",
+			"recoveryFree": "En nuestra organización cobramos cuota de recuperación",
+			"donorType": "Tipo de donataria",
+			"average": "Especifique promedio o rango"
+		},
+		"Financiera": {
+			"title": "Financiera",
+			"income": "Ingresos",
+			"input": "Aportación patronos/consejeros",
+			"associateFees": "Cuotas de asociados",
+			"physicalDonations": "Donativos personas físicas",
+			"businessDonations": "Donativos empresas",
+			"nmpDonations": "Donativos NMP",
+			"oscNational": "OSC nacionales",
+			"oscInternational": "OSC Internacionales",
+			"governmentDonations": "Donativos de gobierno",
+			"yieldFunds": "Rendimiento de fondos",
+			"yieldEquityFunds": "Rendimientos fondo patrimonial",
+			"leasingIncome": "Ingresos por arrendamiento",
+			"recoveryFees": "Cuotas de recuperación",
+			"productiveActivities": "Otras actividades productivas",
+			"otherActivities": "Otras actividades",
+			"totalIncome": "Total ingresos:",
+			"assets": "Activos",
+			"currentAssets": "Activo circulante",
+			"fixedAssets": "Activo fijo",
+			"deferredAssets": "Activo diferido",
+			"totalAssets": "Total activos:",
+			"expenses": "Egresos",
+			"operatingExpenses": "Gastos operativos",
+			"administrativeExpenses": "Gastos administrativos",
+			"otherExpenses": "Otros gastos",
+			"fundraisingExpenses": "Gastos por recaudación de fondos",
+			"totalExpenditures": "Total egresos:",
+			"liabilities": "Pasivos",
+			"suppliers": "Proveedores",
+			"debtsToPay": "Cuentas por pagar",
+			"taxes": "Impuestos",
+			"subTotal": "Total pasivo circulante:",
+			"subTotalExpenses": "Subtotal egresos",
+			"otherPassives": "Otros pasivos",
+			"longTermLiabilities": "Pasivo largo plazo",
+			"heritage": "Capital (Patrimonio)",
+			"totalPassive": "Total pasivos + Capital (Patrimonio):",
+			"resultExcersice": "Resultado del ejercicio = ",
+			"incomeExpenses": "Ingresos - egresos",
+			"administrativeExpenditure": "Gastos administrativos = ",
+			"feesExpenses": "Gastos administrativos/Gastos operativos * 100",
+			"employeesNumber": "Número de empleados",
+			"volunteersNumber": "Número de Voluntarios",
+			"transportEquipment": "Número de equipos de transporte",
+			"donationsSpecies": "Hemos recibido donativos en especie",
+			"specifyDonation": "Especifique donativo",
+			"approximateAmount": "Monto aproximado ($)",
+			"sustainability": "Sustentabilidad",
+			"selfSufficiency": "Autosuficiencia",
+			"selfSufficiencyNMP": "Autosuficiencia NMP",
+			"selfSufficiencyNMPvs": "Aportación NMP vs otros privados",
+			"liquidity": "Liquidez",
+			"capital": "Capital de trabajo",
+			"indebtedness": "Endeudamiento",
+			"leverage": "Apalancamiento",
+			"breach": "Incumplimientos Graves",
+			"visitInformation": "Información para visita"
+
+		},
+		"Resumen": {
+			"title": "Enviar"
+		}
+	},
+	"Oportunidades": {
+		"Instrucciones": {
+			"title": "Instrucciones"
+		},
+		"Convocatoria": {
+			"title": "Convocatorias",
+			"participateButton": "Quiero participar",
+			"detailsButton": "Ver detalles",
+			"maxAmmount": "Monto autorizado",
+			"dateLimit": "Fecha límite",
+			"continueRequest": "Continuar solicitud"
+		},
+		"Proyectos": {
+			"instructions": "Instrucciones",
+			"project": "Proyecto",
+			"item": "Monto solicitado",
+			"documents": "Documentos",
+			"sendCriterio": "Enviar criterios",
+			"sendRubros": "Enviar monto solicitado",
+			"summary": "Enviar",
+			"preauthorizedAmmount": "Monto máximo que puede solicitar: ",
+			"dateLimit": "Fecha límite: "
+		},
+		"Rubros": {
+			"title": "Montos solicitados para el proyecto",
+			"concept": "Concepto solicitado",
+			"justification": "Justificación del concepto solicitado",
+			"ammount": "Monto ($)",
+			"type": "Rubro",
+			"support": "Documento soporte",
+			"maxAmmount": "Monto total solicitado",
+			"totalCost": "Costo total del proyecto",
+			"difference": "Diferencia",
+			"financialSources": "Mencione cuáles serían sus fuentes de financiamiento para completar el costo total del proyecto",
+			"resume": "Resumen de gastos",
+			"donors": "Donantes",
+			"detailsReference": "Ver detalles"
+		}
+	},
+	"Evaluation": {
+		"title": "Evaluaciones",
+		"results": "Resultados",
+		"send": "Enviar",
+		"returnToEvals": "Regresar a evaluaciones",
+		"ElegibilityCriteria": {
+			"title": "Criterios de elegibilidad"
+		},
+		"EvaluationVariable": {
+			"title": "Evaluaciones Variables",
+			"continueEvaluation": "Evaluaciones",
+			"evaluation": "Evaluación",
+			"variables": "Variables",
+			"initEval": "Origen de Evaluación",
+			"dateInit": "Fecha de llenado",
+			"dateValid": "Fecha de validación",
+			"dateVisit": "Fecha de visita",
+			"executive": "Ejecutivo",
+			"responsableGrantee": "Responsable donataria",
+			"evaluator": "Evaluador",
+			"pointsMax": "Puntos Máximos",
+			"pointsScored": "Puntos Obtenidos",
+			"results": "Resultado %",
+			"highPraise": "Ponderación",
+			"resultTotal": "Resultado Total",
+			"answers": "Respuestas",
+			"documents": "Documentos"
+		}
+	},
+	"MonitoringStrength":{
+		"title": "Monitoreo del proceso de Fortalecimiento",
+		"tipoFortalecimientoTitle":"Tipo de Fortalecimiento: Grupo",
+		"objetivosFortalecimiento":"Objetivos de Fortalecimiento y Plan de entregas",
+		"avancePlan":"Avance del Plan de trabajo",
+		"validacionEntregables":"Validacion de entregables",
+		"cambiosRelevantes":"Cambios relevantes de la intervención",
+		"enviar":"Enviar Correo",
+		"guardar":"Guardar",
+		"cierreProceso":"Cierre del proceso de monitoreo",
+		"nivelIntervencion":"Nivel de Intervención",
+		"fechaInicio":"Fecha de Inicio de Etapa",
+		"consultor":"Consultor",
+		"tipoFortalecimiento":"Tipo de Fortalecimiento",
+		"etapaFortalecimiento":"Etapa de Fortalecimiento",
+		"estatusFortalecimiento":"Estatus de Fortalecimiento",
+		"prioritaria":"Prioritaria",
+		"temaCapacitacion":"Tema de Capacitación",
+		"asistencia":"Asistencia",
+		"conocimientos":"Conocimientos Adquiridos",
+		"calidad":"Calidad del Servicio",
+		"otro":"Otro"
+	},
+	"Supervisor": {
+		"Screen": {
+			"supervisor": "Supervisor",
+			"executive": "Ejecutivo",
+			"status": "Estatus",
+			"size": "Tamaño",
+			"group": "Grupo",
+			"donataryGroup": "Grupo donataria",
+			"training": "Capacitación intervención"
+		},
+		"Status": {
+			"stage": "Estatus etapa",
+			"comments": "Comentarios"
+		}
+	},
+	"Valoracion": {
+		"Contenedor": {
+			"title": "Valoración de rubros",
+			"nav": ["Rubros", "Justificación de los rubros solicitados", "Objetivos de desarrollo sostenible"],
+			"columns": {
+				"Items": ["Concepto", "Justificación", "Monto", "Tipo de gasto", "Documento"],
+				"Valuation": [
+					"Rubro",
+					"¿La necesidad de lo solicitado será utilizado para la prestación de servicios o bienes de la población?",
+					"¿Cuenta con un plan de trabajo o procuración de fondos que avale la realización del proyecto?",
+					"Justificación del rubro"
+				],
+				"SustainableGoals": ["Objetivo de desarrollo sostenible"],
+				"Themes": ["Tema", "Subtema 1", "Subtema 2", "Servicios", "Enfoque"]
+			}
+		},
+		"Items": {
+			"maxAmmount": "Monto máximo a solicitar",
+			"projectCost": "Costo total del proyecto",
+			"diference": "Diferencia",
+			"sources": "Fuentes de financiamiento para completar el costo total del proyecto"
+		},
+		"Requested": {
+			"GeneralQuestions": "Preguntas generales",
+			"congruent": "¿El donativo solicitado es congruente con el objeto asistencial de la institución y el objetivo del proyecto?",
+			"requested": "¿Lo solicitado contribuye a generar los cambios esperados en la población objetivo y son congruentes con las actividades y metas planteadas?",
+			"identified": "¿Se tiene identificada a la población que recibirá los servicios establecidos en el proyecto?",
+			"justify": "Justifica",
+			"items": "Rubros",
+			"need": "¿Lo solicitado será utilizado para la prestación de servicios o bienes de la población?",
+			"plan": "¿Cuenta con un plan de trabajo o procuración de fondos que avale la realización del proyecto?",
+			"review": "¿Requiere revisión de otras áreas?",
+			"justificationRequest": "Justificación de la solicitud",
+			"noJustify": "Causa de no justificación"
+		},
+		"Sustainable": {
+			"objectives": "¿Los objetivos de desarrollo sostenible y metas a los que contribuye el proyecto elegidos por la institución son correctos?",
+			"goals": "Objetivo de desarrollo sostenible",
+			"objectiveGoal": "Meta de objetivo de desarrollo sostenible",
+			"coverage": "Indicador de cobertura",
+			"institutionGoal": "Meta de la institución",
+			"results": "Indicador de resultados"
+		},
+		"comments": "Comentarios"
+	},
+	"Certificate": {
+		"Contenedor": {
+			"title": "Certificado de Asignación",
+			"button": "Generar"
+		},
+		"HeaderCertificate": {
+			"logotipo": "Logotipo",
+			"Textos": ["Texto 1", "Texto 2", "Texto 3", "Texto 4", "Texto 5", "Texto 6", "Texto 7", "Texto 8"]
+		},
+		"Signs": {
+			"title": "Título",
+			"puesto": "Puesto",
+			"nombre": "Nombre",
+			"paterno": "Apellido Paterno",
+			"materno": "Apellido Materno",
+			"Firmas": ["Firma 1", "Firma 2"],
+			"sign": "Firma",
+			"button": "Guardar firma"
+		}
+	},
+	"Requirements": {
+		"Container": {
+			"Tab1": "Documentos y Representante Legal",
+			"Tab2": "Contratos",
+			"Tab3": "Requisitos de pago",
+			"InfoMessage": "En breve recibirá un correo con las indicaciones para actualizar sus datos"
+		},
+		"Documents": {
+			"Documents": "Documentos",
+			"DocumentName": "Nombre",
+			"Checked": "Revisado"
+		},
+		"LegalRep": {
+			"title": "Representante Legal",
+			"Name": "Nombre completo",
+			"Type": "Tipo de poder",
+			"Writing": "Escritura",
+			"Notary": "Notario",
+			"NotaryPlace": "Notaría",
+			"Validity": "Vigencia",
+			"SelectInput": "¿Los representantes legales y documentos son correctos?"
+		},
+		"Contracts": {
+			"CVE": "Id",
+			"Contract": "Contrato",
+			"Download": "Descargar",
+			"SignedContract": "Contrato firmado",
+			"AddContract": "Agregar contrato"
+		},
+		"Requirements": {
+			"id": "Id",
+			"Requirement": "Requisito",
+			"Attached": "Documento",
+			"Delivered": "Entregó",
+			"Bank": "Banco",
+			"Clabe": "Clabe",
+			"Monto": "Monto a entregar",
+			"Receipt": "No. de recibo",
+			"Reference": "Referencia",
+			"ReceiptDoc": "Recibo PDF",
+			"XMLDoc": "Recibo XML",
+			"Validate": "Validar pago"
+		},
+		"Financial": {
+			"Id": "Id",
+			"Bank": "Banco",
+			"Clabe": "Clabe",
+			"References": "Monto a entregar",
+			"NoReceipt": "No. de recibo",
+			"ReceiptPDF": "Recibo PDF",
+			"ReceiptXML": "Recibo XML"
+		}
+	}
+}
